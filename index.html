@@ -12,23 +12,27 @@
             text-align: center;
             padding: 50px;
         }
-        .discord {
-            margin-top: 20px;
-            font-size: 20px;
+        .discord-button {
+            background-color: #000000; /* Midnight Black */
+            color: #FFFFFF; /* White text */
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .discord-button:hover {
+            background-color: #444444; /* Darker shade on hover */
         }
         .credits {
-            margin-top: 50px;
-            font-size: 16px;
-            color: #CCCCCC; /* Light gray for credits */
+            margin-top: 20px;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
     <h1>About Me</h1>
     <p>Welcome to my page! Here you can find more about me.</p>
-    <div class="discord">
-        <p>Join my Discord server!</p>
-    </div>
+    <a href="https://discord.gg/U4W3ESZj" class="discord-button">Join my Discord Server</a>
     <div class="credits">
         <p>Credits: Trinyx and Spriteglow</p>
     </div>
