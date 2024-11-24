@@ -1,1 +1,0 @@
-# trinyxScripts.github.io
